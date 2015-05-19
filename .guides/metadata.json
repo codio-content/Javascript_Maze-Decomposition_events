@@ -1,68 +1,42 @@
 {
  "sections": [
   {
-   "id": "9e149a02-e459-9e9c-dda-bb4f19c1a76",
-   "title": "Section 1",
+   "id": "fbc67c4-328c-1cb4-9b40-3d652a1cd0ec",
+   "title": "Events",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "content/js/one.js",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: https://{{domain}}:9500/one",
-     "panel": 1,
-     "action": "open"
     }
    ],
    "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Section-1-9e14.md"
+   "content-file": ".guides/content/Events-fbc6.md"
   },
   {
-   "id": "c9caf3ac-f36b-1d03-8c42-5857e5f8b8dd",
-   "title": "Section 2",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#preview: https://{{domain}}:9500/two-blockly",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: https://{{domain}}:9500/two",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell",
+   "id": "58fda430-c51b-40c5-e8e0-621195f1bcd",
+   "title": "What is an Event",
+   "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Section-2-c9ca.md"
+   "content-file": ".guides/content/What-is-an-Event-58fd.md"
   },
   {
-   "id": "2ce25b7e-d07d-dce1-a809-e6a293d64967",
-   "title": "Section 3",
+   "id": "9d6da1d1-d91d-64fa-fb27-b08995f6e445",
+   "title": "Play a sound",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
-     "path": "#preview: https://{{domain}}:9500/three-blockly",
+     "path": "public/content/js/play-sound.js",
      "panel": 0,
      "action": "open"
     },
     {
-     "path": "#preview: https://{{domain}}:9500/three",
+     "path": "#preview: https://{{domain9500}}/play-sound",
      "panel": 1,
      "action": "open"
     }
@@ -70,7 +44,111 @@
    "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Section-3-2ce2.md"
+   "content-file": ".guides/content/Play-a-sound-9d6d.md"
+  },
+  {
+   "id": "9171868f-1375-7f4b-3994-589d114d9577",
+   "title": "Collision Detection",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/content/js/collision-event.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/collision-event",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Collision-Detection-9171.md"
+  },
+  {
+   "id": "4c7a4141-e4f8-4483-8148-4fc961ef84a5",
+   "title": "Sound Experiment",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Sound-Experiment-4c7a.md"
+  },
+  {
+   "id": "5ad3df1a-1228-fa91-554c-b3978c59d5a6",
+   "title": "Object Specific Collisions",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/content/js/collision-events.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/collision-events",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Object-Specific-Collisions-5ad3.md"
+  },
+  {
+   "id": "733c2e3-6f3e-c16f-964c-91dfd12bca9b",
+   "title": "Scoring",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Scoring-733c.md"
+  },
+  {
+   "id": "9b209023-abb7-fa49-b09b-89753edc5059",
+   "title": "The scoring algorithm",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-scoring-algorithm-9b20.md"
+  },
+  {
+   "id": "9b83c6a3-16d2-70e2-5363-598e41e778",
+   "title": "Displaying Steps & Energy",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Displaying-Steps---Energy-9b83.md"
+  },
+  {
+   "id": "4e3d66d0-22e6-ff1d-960f-daa1207672da",
+   "title": "Doing the scoring",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Doing-the-scoring-4e3d.md"
+  },
+  {
+   "id": "1230f68c-3d28-7b04-48b-1792dfcf0c4",
+   "title": "Doing it all yourself",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Doing-it-all-yourself-1230.md"
+  },
+  {
+   "id": "343cfc42-7eba-9552-b819-19d2b6e26836",
+   "title": "All done",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/All-done-343c.md"
   }
  ],
  "theme": "charcoal",

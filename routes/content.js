@@ -6,32 +6,19 @@ var express = require('express');
 var router = express.Router();
 
 
-// game
-router.get('/one', function(req, res) {
-  res.render('one');
+// Play a sound command
+router.get('/play-sound', function(req, res) {
+  res.render('play-sound');
 });
 
-
-// blockly script
-router.get('/two-blockly', function(req, res) {
-  res.render('two-blockly');
+// Collision Event
+router.get('/collision-event', function(req, res) {
+  res.render('collision-event');
 });
 
-// game
-router.get('/two', function(req, res) {
-  res.render('two');
+// Collision Event with specific collisions
+router.get('/collision-events', function(req, res) {
+  res.render('collision-events');
 });
-
-
-// blockly script
-router.get('/three-blockly', function(req, res) {
-  res.render('three-blockly');
-});
-
-// game
-router.get('/three', function(req, res) {
-  res.render('three');
-});
-
 
 module.exports = router;
