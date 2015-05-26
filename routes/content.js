@@ -21,4 +21,19 @@ router.get('/collision-events', function(req, res) {
   res.render('collision-events');
 });
 
+// Game started
+router.get('/game-started', function(req, res) {
+  res.render('game-started');
+});
+
+// Step taken handle scoring
+router.get('/step-taken', function(req, res) {
+  res.render('step-taken');
+});
+
+// Keyboard handler
+router.get('/kb', function(req, res) {
+  res.render('kb');
+});
+
 module.exports = router;

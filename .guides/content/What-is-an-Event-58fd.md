@@ -7,7 +7,7 @@ Here are a few real world events that happen in your home
 
 - When the doorbell rings, open the door
 - When the phone rings, answer it
-- When the toast gets hot, salivate
+- When you smell toast, salivate
 
 Let's give you some examples in our game
 

@@ -7,19 +7,26 @@
     
     <script>
 
-      document.addEventListener('DOMContentLoaded', function() {
-        createRandomMaze()
-        startFromContainer('game')
-
-        // Load the user script file
-        loadUserScript('/content/js/collision-event.js')        
-        
-      })
-
+      
       // Once user script is loaded, do whatever else needs to be done
       function userScriptLoaded() {
-        setPlayerHitObjectEventHandler(collisionEvent);
-      }
+        playerHitObject (function () {
+          collisionEvent()
+          return true
+        });
+      }        
+      
+      document.addEventListener('DOMContentLoaded', function() {
+
+        tempSound()         
+        createRandomMaze(16, 8)
+
+        
+        // Load the user script file
+        loadUserScript('/js/collision-event.js')        
+        
+      
+      })
             
     </script>
     

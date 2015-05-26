@@ -6,21 +6,17 @@
     <% include include/game.ejs %>    
  
     <script>      
- 
-      
-      function userScriptLoaded() {
 
-      }           
-              
       document.addEventListener('DOMContentLoaded', function() { 
-
-        tempSound()          
         
         // Set up game
-        createEmptyMaze() 
+        
+        tempSound() 
+        
+        createRandomMaze(16, 8) 
         
         // Load the user script file
-        loadUserScript('/js/play-sound.js')
+        loadUserScript('/js/game-started.js')
         
       })    
     </script>

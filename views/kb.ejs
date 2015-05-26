@@ -5,22 +5,23 @@
     
     <% include include/game.ejs %>    
  
-    <script>      
- 
+    <script>   
+         
       
       function userScriptLoaded() {
-
-      }           
-              
+        playerUpdate(keyBoardEvent);
+      }      
+      
       document.addEventListener('DOMContentLoaded', function() { 
-
-        tempSound()          
+      
+        tempSound()         
         
         // Set up game
-        createEmptyMaze() 
+        createRandomMaze(16, 8) 
+  
         
         // Load the user script file
-        loadUserScript('/js/play-sound.js')
+        loadUserScript('/js/kb.js')
         
       })    
     </script>
