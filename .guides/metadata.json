@@ -125,12 +125,12 @@
    "content-file": ".guides/content/Scoring-733c.md"
   },
   {
-   "id": "9b209023-abb7-fa49-b09b-89753edc5059",
-   "title": "The scoring algorithm",
+   "id": "a84bdc7-f866-d409-d634-7cad1b447185",
+   "title": "Explanation",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/The-scoring-algorithm-9b20.md"
+   "content-file": ".guides/content/Explanation-a84b.md"
   },
   {
    "id": "b2ffa4cc-c8e6-642a-bd51-9a5caf9d8ded",
@@ -157,25 +157,25 @@
    "content-file": ".guides/content/Game-startup-event-b2ff.md"
   },
   {
-   "id": "9b83c6a3-16d2-70e2-5363-598e41e778",
-   "title": "Displaying Steps & Energy",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Displaying-Steps---Energy-9b83.md"
-  },
-  {
-   "id": "4e3d66d0-22e6-ff1d-960f-daa1207672da",
-   "title": "Doing the scoring",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Doing-the-scoring-4e3d.md"
-  },
-  {
    "id": "1230f68c-3d28-7b04-48b-1792dfcf0c4",
    "title": "Doing it all yourself",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/js/diy.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/diy",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Doing-it-all-yourself-1230.md"
@@ -189,6 +189,6 @@
    "content-file": ".guides/content/All-done-343c.md"
   }
  ],
- "theme": "charcoal",
+ "theme": "paper",
  "scripts": []
 }

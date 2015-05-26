@@ -32,6 +32,11 @@ router.get('/step-taken', function(req, res) {
 });
 
 // Keyboard handler
+router.get('/diy', function(req, res) {
+  res.render('diy');
+});
+
+// Keyboard handler
 router.get('/kb', function(req, res) {
   res.render('kb');
 });

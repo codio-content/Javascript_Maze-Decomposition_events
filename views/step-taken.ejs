@@ -7,11 +7,11 @@
  
     <script>   
       
-      function userScriptLoaded() {     
-        gameStarted(initGame)       
+      function userScriptLoaded() {          
         createRandomMaze(16,8)            
-      }         
-
+        playerStepTaken (stepTaken)
+      }
+              
       document.addEventListener('DOMContentLoaded', function() {
         
         // Load the user script file

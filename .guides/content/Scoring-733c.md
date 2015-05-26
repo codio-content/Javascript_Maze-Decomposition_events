@@ -6,5 +6,13 @@ The game can handle the display of the following information
 - **Energy** the amount of energy your player has
 - **Score** the total score
 
+## Rules of the game
+
+- The player has a certain amount of starting energy, which you can decide, as we'll see later.
+- You lose energy with each step you take.
+- You gain energy when you hit an energy store. 
+- You lose energy when you brush up against a monster.
+
 ## Play
 Play the game and see what happens to the each time you take a step, hit an energy store. Keep an eye on the steps, energy and score displays.
+
