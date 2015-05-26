@@ -1,5 +1,5 @@
 
-function keyBoardEvent() {
+function keyPressedEvent() {
 
   // reload the page
   if(keyPressed('R')) {

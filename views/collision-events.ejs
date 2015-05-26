@@ -7,30 +7,27 @@
     
     <script>
       
-      function userScriptLoaded() {
-        playerHitObject (function () {
-          collisionEvent()
-          return true
-        });
-      }       
+      // Once user script is loaded, do whatever else needs to be done
+      function userScriptLoaded() {     
+        //gameStarted(initGame)
+        playerHitEnergy(function(object) {
+          hitEnergyEvent();
+          removeObject(object);
+        });     
+        playerHitWall(hitWallEvent);
+        playerHitMonster(hitMonsterEvent);
+        playerHitGoal(goalReachedEvent)
+        createRandomMaze(16,8)           
+        playerStepTaken (function () {})           
+      }      
       
       document.addEventListener('DOMContentLoaded', function() {
-
-        tempSound()         
-        createRandomMaze(16,8)
 
         // Load the user script file
         loadUserScript('/js/collision-events.js')        
         
       })
 
-      // Once user script is loaded, do whatever else needs to be done
-      function userScriptLoaded() {
-        playerHitEnergy(hitEnergyEvent);
-        playerHitWall(hitWallEvent);
-        playerHitMonster(hitMonsterEvent);
-        playerHitGoal(goalReachedEvent)
-      }
             
     </script>
     

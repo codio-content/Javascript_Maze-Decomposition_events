@@ -5,15 +5,14 @@
     
     <% include include/game.ejs %>    
  
-    <script>      
+    <script>   
+      
+      function userScriptLoaded() {     
+        gameStarted(initGame)       
+        createRandomMaze(16,8)            
+      }         
 
-      document.addEventListener('DOMContentLoaded', function() { 
-        
-        // Set up game
-        
-        tempSound() 
-        
-        createRandomMaze(16, 8) 
+      document.addEventListener('DOMContentLoaded', function() {
         
         // Load the user script file
         loadUserScript('/js/step-taken.js')
