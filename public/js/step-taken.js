@@ -1,8 +1,7 @@
 
-function stepTaken () {
+function turnTaken () {
 
-  steps = steps + 1
-  score = energy*5  / steps
+  score = energy*100  / steps
   energy = energy - 1
   
 }

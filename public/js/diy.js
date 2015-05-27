@@ -1,9 +1,9 @@
 
 function initGame() {
-
+  
 }
 
-function playerStepTaken() {
+function turnTaken() {
   // scoring is done in here  
 }
 

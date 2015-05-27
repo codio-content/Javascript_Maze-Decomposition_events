@@ -1,11 +1,5 @@
 Let's look at the code line by line and see how we do the scroing.
 
-## Steps Counter
-```javascript
-steps = steps + 1
-```
-We are adding 1 to the `steps` variable. This will change the display value in the game.
-
 ## Calculate score
 ```javascript
 score = energy*5  / steps

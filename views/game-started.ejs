@@ -7,9 +7,10 @@
  
     <script>      
 
-      function userScriptLoaded() {          
-        createRandomMaze(16,8)            
-        playerStepTaken (stepTaken)
+      function userScriptLoaded() {           
+        gameStarted(initGame)        
+        endOfTurn (turnTaken)
+        createRandomMaze(16,8)   
       }     
       
       document.addEventListener('DOMContentLoaded', function() { 
