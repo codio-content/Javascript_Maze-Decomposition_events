@@ -1,15 +1,15 @@
 
-function keyPressed() {
+function keyPressedEvent(keyCode) {
 
   // reload the page
-  if ( keyPressed == 'R' ) {
+  if ( keyCode == 'R' ) {
     document.location.reload(true);
   }
 
-  if ( keyPressed == 'LEFT' ) {
+  if ( keyCode == 'LEFT' ) {
     player.moveleft()
   } 
-  if ( keyPressed == 'LEFT' ) {
+  if ( keyCode == 'RIGHT' ) {
     player.moveleft()
   } 
 

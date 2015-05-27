@@ -8,7 +8,7 @@ In this simple case, we want to
 - Play a bump sound whenever the player collides with any other game entity.
 - Display a message 'Bump' below the game.
 
-Look at the code on the left. Please don't worry about the first line of code. 
+Look at the code on the left. Please don't worry this wrapper around the code...
 
 ```javascript
 function collisionEvent() {
@@ -16,6 +16,6 @@ function collisionEvent() {
 }
 ```
 
-It looks nasty, but it will soon make perfect sense. If it bothers you, just ignore it and pretend it's not there. We'll formally cover this later.
+It looks nasty, but it will soon make perfect sense. Just read the `collisionEvent()` bit and think "this is the bit of code that handles a collision".
 
 Play the game and you can hear the sound and see the message.

@@ -6,11 +6,12 @@ We have a special function in our game called 'playSound()'. You can use it in a
 - `playSound('kill')` makes a noise that you might make when you have hit a monster enough times to kill it
 - `playSound('goal-reached')` makes a noise that you might make when you have hit a monster enough times to kill it
 
+## Have a play
+Play with the code to experiment with these sounds. 
 
-Play with the code to experiment with these sounds. You can add more than one sound if you like.
+- Change the `playSound()` function as described above
+- Try adding more than one sound
 
 
-We'll use `playSound()` in context in a moment.
-
-
+We'll use `playSound()` in the context of our game in a moment.
 
