@@ -1,7 +1,7 @@
 
 function initGame() {
   setEnergyDefaultEnergy(10)
-  setMonsterDefaultDamage(10)
+  setMonsterDefaultDamage(5)
   score = 30
   energy = 10
 }

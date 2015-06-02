@@ -8,7 +8,7 @@ function turnTaken() {
 }
 
 function hitWallEvent() {
-
+    
 }
 
 function hitEnergyEvent() {
