@@ -1,4 +1,4 @@
-Let's introduce another event. The `gameStarted` event is called once as soon as the game has started up.
+Let's introduce another event. The `initGame` event is called once as soon as the game has started up.
 
 ## Starting values
 If you look at the code on the left, you can see how we are initialising the following things
@@ -15,4 +15,8 @@ Feel free to change the code. Try changing things like this
 
 ```javascript
 energy = energy - 2
+```
+or
+```javascript
+energy = energy - 0.5
 ```

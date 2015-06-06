@@ -17,9 +17,11 @@ When you're done, press the button below.
 
 {Check It!!|custom}(test-collision-sounds)
 
-|||teacher
+|||
 
-## Teacher Cheat Sheet
+|||guidance
+
+## Solution
 ```javascript
 function hitWallEvent() {
   showMessage('Hit wall')

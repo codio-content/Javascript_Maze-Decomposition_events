@@ -9,7 +9,7 @@
      "action": "close"
     }
    ],
-   "layout": "3-cell",
+   "layout": "3-cell-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Events-fbc6.md"
