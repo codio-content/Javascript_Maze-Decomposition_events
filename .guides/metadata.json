@@ -9,7 +9,7 @@
      "action": "close"
     }
    ],
-   "layout": "3-cell",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Events-fbc6.md"
@@ -47,7 +47,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Play-a-sound-9d6d.md"

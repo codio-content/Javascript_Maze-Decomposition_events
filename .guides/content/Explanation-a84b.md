@@ -1,4 +1,4 @@
-Let's look at the code line by line and see how we do the scroing.
+Let's look at the code line by line and see how we do the scoring.
 
 ## Calculate score
 ```javascript
