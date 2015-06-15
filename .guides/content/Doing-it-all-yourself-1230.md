@@ -16,7 +16,7 @@ $$
 
 
 
-{Check It!!|custom}(test-display-1)
+{Check It!!|custom}(diy)
 
 |||
 
