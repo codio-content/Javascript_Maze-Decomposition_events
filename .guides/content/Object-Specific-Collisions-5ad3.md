@@ -15,7 +15,7 @@ Make sure you play then game and hit all the entity types and also reach the exi
 
 When you're done, press the button below.
 
-{Check It!!|custom}(test-collision-sounds)
+{Check It!!|custom}(collision-events)
 
 |||
 
