@@ -6,7 +6,7 @@ If you look at the code on the left, you can see how we are initialising the fol
 1. The starting energy level of the player `score = 30`
 1. The starting energy level of the player `energy = 10`
 1. The amount of energy an energy store contains `setEnergyDefaultEnergy(10)`
-1. The amount of damage a monster does to your energy `setMonsterDefaultDamage(10)`
+1. The amount of damage a monster does to your energy `setMonsterDefaultDamage(5)`
 
 ## Play
 Go ahead and play the game. Observe how the player energy changes as does the number of steps and the score.
