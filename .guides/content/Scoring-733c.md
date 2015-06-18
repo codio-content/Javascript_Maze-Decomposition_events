@@ -14,5 +14,5 @@ The game can handle the display of the following information
 - You lose energy when you brush up against a monster.
 
 ## Play
-Play the game and see what happens to the each time you take a step, hit an energy store. Keep an eye on the steps, energy and score displays.
+Play the game and see what happens to the score each time you take a step, hit an energy store or brush up against a monster. Keep an eye on the steps, energy and score displays.
 

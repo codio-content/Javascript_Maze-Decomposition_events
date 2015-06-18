@@ -10,6 +10,7 @@ Look at the code on the left hand side. We have provided 4 different event handl
 1. Play the `fight` sound for a collision with a monster.
 1. Play the `goal-reached` sound when you reach the exit.
 1. Show a message for each collision as well saying simply 'hit wall', 'hit energy' and 'hit monster'.
+1. Show a message saying 'Reached Goal' when you reach the exit.
 
 Make sure you play then game and hit all the entity types and also reach the exit.
 
@@ -39,7 +40,7 @@ function hitMonsterEvent() {
 }
 
 function goalReachedEvent() {
-  showMessage('Hit monster')
+  showMessage('Reached goal')
   playSound('goal-reached')
 }
 ```

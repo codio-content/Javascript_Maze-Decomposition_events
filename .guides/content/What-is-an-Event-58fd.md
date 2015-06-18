@@ -1,6 +1,6 @@
 |||definition
 ## Event
-An event is an action or occurrence detected by a program that should be dealt with in a certain way that the program determines.
+An event is an action or occurrence detected by a running program that the program needs to respond to.
 |||
 
 ## Real World Events
