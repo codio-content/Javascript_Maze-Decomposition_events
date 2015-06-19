@@ -1,4 +1,4 @@
-We have a special function in our game called 'playSound()'. You can use it in any of the following ways.
+We have a special function in our game called `playSound()`. You can use it in any of the following ways.
 
 - `playSound('bump')` makes a noise when hitting a wall
 - `playSound('energy')` makes a noise when hitting an energy store

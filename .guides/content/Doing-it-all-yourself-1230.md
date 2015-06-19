@@ -51,6 +51,7 @@ function hitMonsterEvent() {
 
 function goalReachedEvent() {
   playSound('goal-reached')
+  showMessage('Reached goal!')
 }
 ```
 
